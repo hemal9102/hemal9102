@@ -1,50 +1,60 @@
-# 👋 Hi, I'm HK Shah  
-AI Engineer | DevOps Enthusiast | Python & Automation Developer  
+<h1 align="center">Hi 👋, I'm Hemal Shah</h1>
+<h3 align="center">AI Engineer | Python Developer | Automation & DevOps Enthusiast</h3>
 
-- 🔭 I’m currently working on AI automation projects using n8n, Bolt, Python  
-- 🌱 Learning: DevOps, Docker, Kubernetes, CI/CD  
-- 💡 Interests: AI Bots, Web Scraping, ML Projects, System Automation  
-- 🎯 Goal: AI/ML Engineer / DevOps Engineer  
+---
 
+## 🧑‍💻 Work
 
-### 🛠️ Skills & Tools
+🔭 **I’m currently working on**  
+OCR System for Images & PDFs (AI + Python + n8n Automation)  
+🔗 https://github.com/hemal9102  
 
-**Programming:** Python | Java | JavaScript  
-**AI/ML:** NumPy, Pandas, Scikit-Learn, TensorFlow  
-**DevOps:** Docker, Kubernetes, GitHub Actions, Linux  
-**Database:** MySQL, MongoDB  
-**Automation:** n8n, Selenium  
+👯 **I’m looking to collaborate on**  
+AI Automation Bots using n8n + Python  
 
+🤝 **I’m looking for help with**  
+Chess AI – Intelligent Game Analysis & Strategy Optimization  
+🔗 https://github.com/hemal9102/ChessAI-Glasses  
 
-### 🚀 Featured Projects
+🌱 **I’m currently learning**  
+Docker · Kubernetes · GitHub Actions · NVIDIA Generative AI  
 
-- **Chess AI – Strategy Optimization with ML**  
-  Intelligent move analysis & board detection.  
+💬 **Ask me about**  
+Python · AI Automation · Web Scraping · n8n · Unity  
 
-- **Web Scraper – Product Price Extractor**  
-  Scrapes names, prices, ratings → CSV  
+📫 **How to reach me**  
+📧 hemal.shah2004@gmail.com  
 
-- **Sudoku Solver (Backtracking Algorithm)**  
-  Solves any Sudoku puzzle using algorithmic search.
+⚡ **Fun fact**  
+I am good at self-realization 😄  
 
-  ### 📫 Contact
-- Email: yourname@gmail.com  
-- LinkedIn: https://linkedin.com/in/yourprofile  
-- Portfolio: your-website (optional)
+---
 
+## 🌐 Connect with Me
+<p align="left">
+<a href="https://linkedin.com/in/hemal-shah" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40" /></a>
+<a href="https://instagram.com/hemall_9" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" height="30" width="40" /></a>
+<a href="https://www.youtube.com/@HKFusion" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" height="30" width="40" /></a>
+</p>
 
+---
 
-<!--
-**hemal9102/hemal9102** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🧰 Tech Stack (Focused)
+<p align="left">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40"/>
+<img src="https://www.vectorlogo.zone/logos/docker/docker-icon.svg" width="40"/>
+<img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" width="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" width="40"/>
+<img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" width="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="40"/>
+<img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" width="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" width="40"/>
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📊 GitHub Stats
+<p>
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=hemal9102&show_icons=true&layout=compact" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api?username=hemal9102&show_icons=true" height="180"/>
+</p>
