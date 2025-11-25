@@ -7,15 +7,23 @@
 
 ---
 
-## 🚀 About Me
+🚀 About Me
 
-- 🔭 I’m currently working on **OCR System for Images & PDFs**
-- 🌱 Learning **Docker, Kubernetes, GitHub Actions**
-- 👯 Looking to collaborate on **AI Automation Bots (n8n + Python)**
-- 🤝 Looking for help with **[Chess AI – Game Analysis & Strategy](https://github.com/hemal9102/ChessAI-Glasses)**
-- 💬 Ask me about **Python, AI Automation, Web Scraping, n8n, Unity**
-- 📫 Reach me at **hemal.shah2004@gmail.com**
-- ⚡ Fun fact: **I am good at self-realization 😄**
+🔭 I’m currently working on OCR System for Images & PDFs
+
+🌱 Learning Docker, Kubernetes, GitHub Actions
+
+👯 Looking to collaborate on AI Automation Bots (n8n + Python)
+
+🤝 Looking for help with Chess AI – Game Analysis & Strategy
+
+💬 Ask me about Python, AI Automation, Web Scraping, n8n, Unity
+
+🌐 Check out my Portfolio: https://hemal9102.github.io/portfolio_HK/
+
+📫 Reach me at hemal.shah2004@gmail.com
+
+⚡ Fun fact: I am good at self-realization 😄
 
 ---
 
