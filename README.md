@@ -9,13 +9,20 @@
 
 ## 🚀 About Me
 
-[cite_start]🔭 I’m currently working as a Python & Automation Developer Intern at Inddig Media Pvt Ltd[cite: 57, 58].
-[cite_start]🌱 Deepening my expertise in FastAPI, scalable backend applications, and production deployments[cite: 48, 49].
-[cite_start]👯 Looking to collaborate on AI Automation workflows, MCP Servers, and GraphRAG systems[cite: 53, 56, 69, 74].
-[cite_start]🤝 Looking for help with scaling backend architectures and asynchronous workflow orchestration[cite: 71, 82].
-[cite_start]💬 Ask me about Python, FastAPI, PostgreSQL, Docker, and n8n[cite: 52, 53, 54, 55, 56].
+🔭 I’m currently working as a Python & Automation Developer Intern at Inddig Media Pvt Ltd.
+
+🌱 Deepening my expertise in FastAPI, scalable backend applications, and production deployments.
+
+👯 Looking to collaborate on AI Automation workflows, MCP Servers, and GraphRAG systems.
+
+🤝 Looking for help with scaling backend architectures and asynchronous workflow orchestration.
+
+💬 Ask me about Python, FastAPI, PostgreSQL, Docker, and n8n.
+
 🌐 Check out my Portfolio: https://hemal9102.github.io/hemalshah/
-[cite_start]📫 Reach me at hemal.shah2004@gmail.com [cite: 45]
+
+📫 Reach me at hemal.shah2004@gmail.com
+
 ⚡ Fun fact: I am good at self-realization 😄
 
 ---
