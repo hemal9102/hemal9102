@@ -43,5 +43,4 @@ I build production runtime infrastructure, distributed protocol engines, and eva
 
 - **Email**: [hemal@tensix.in](mailto:hemal@tensix.in)
 - **Platform**: [https://tensix.in](https://tensix.in)
-- **Phone**: +91 83202 78775
 - **LinkedIn**: [linkedin.com/in/hemal-shah-49a728362](https://www.linkedin.com/in/hemal-shah-49a728362/)
