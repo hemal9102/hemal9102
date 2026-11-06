@@ -19,6 +19,10 @@ Production-grade unilateral patches and performance fixes across Tier-1 distribu
   `fix(price_pusher/solana): decouple VAA reclamation to prevent 143+ SOL account leak (#4049)`  
   Resolved an ongoing mainnet leak locking ~143.11 SOL across 18,734 orphan accounts by implementing an asynchronous batch reclamation queue respecting Solana 1232-byte MTU boundaries with zero hot-path latency impact.
 
+- **[OKX X Layer (Reth) #277](https://github.com/okx/xlayer-reth/issues/277#issuecomment-3500204642)** — *OKX (OP-Stack Layer 2 Execution Client in Rust)*  
+  `fix(legacy-rpc): fallback to legacy on debug_traceTransaction null result (#277)` ([Commit 1bda95a0](https://github.com/hemal9102/xlayer-reth/commit/1bda95a0))  
+  Root-caused EVM state replay rejection when `debug_traceTransaction` encounters zero-fee gasless predecessor transactions under standard base-fee validation; implemented automatic fallback routing preserving indexer RPC uptime.
+
 - **[Mysten Labs / Walrus #3962](https://github.com/MystenLabs/walrus/pull/3962)** — *Mysten Labs / SuiHub Dubai (Decentralized Storage Network)*  
   `fix(node): do not fail confirmation response on reassigned shard pending flush (#3742)`  
   Resolved critical quorum loss during epoch-boundary transitions by treating unassigned shard cache flushes as benign rather than escalating into fatal internal errors.
