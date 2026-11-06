@@ -31,6 +31,8 @@ Production-grade unilateral patches and performance fixes across Tier-1 distribu
   `fix(legacy-rpc): fallback to legacy on debug_traceTransaction null result (#277)` ([Commit 1bda95a0](https://github.com/hemal9102/xlayer-reth/commit/1bda95a0))  
   Root-caused EVM state replay rejection when `debug_traceTransaction` encounters zero-fee gasless predecessor transactions under standard base-fee validation; implemented automatic fallback routing preserving indexer RPC uptime.
 
+- **[Mysten Labs / Sui #28488](https://github.com/hemal9102/sui/commit/c9639134789d543db07aa7b778908a1a918eef92)** — *SuiHub Dubai / Mysten Labs (Layer 1 Blockchain & Distributed Consensus in Rust)*  
+  - Fixed gRPC multiaddr parser accepting arbitrary non-HTTP protocol suffixes (`/ws`) as plaintext HTTP ([#28488](https://github.com/MystenLabs/sui/issues/28488)).
 - **[Mysten Labs / Sui #28498](https://github.com/hemal9102/sui/commit/72f2c15dd4ab00f14be430dbcf70ec3535c3aae3)** — *SuiHub Dubai / Mysten Labs (Layer 1 Blockchain & Distributed Consensus in Rust)*  
   - Fixed empty-range panic in simulation/debug cache capacity randomizer for low capacities ([#28498](https://github.com/MystenLabs/sui/issues/28498)).
 - **[Mysten Labs / Sui #28594](https://github.com/MystenLabs/sui/pull/28594)** — *SuiHub Dubai / Mysten Labs (Layer 1 Blockchain & Distributed Consensus in Rust)*  
