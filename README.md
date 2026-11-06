@@ -15,6 +15,8 @@ Production-grade unilateral patches and performance fixes across Tier-1 distribu
   `fix(python): prevent silent dropping of dictionary fields in subsequent rows (#4484)`  
   Fixed data-loss mechanism in `to_arrow` table construction when ingesting lists of dictionaries where nullable attributes appear in subsequent rows. Verified and **approved by official LanceDB Gatekeeper**.
 
+- **[Pyth Network / Hermes #4087](https://github.com/hemal9102/pyth-crosschain/commit/4e8b3e945c2cb8e367c307e53f1db12e52e5a40a)** — *Pyth Network / Douro Labs (Oracle Streaming Infrastructure)*  
+  - Fixed silent dropping of `Headers` instances and header arrays in Hermes HTTP/SSE price feeds ([#4087](https://github.com/pyth-network/pyth-crosschain/issues/4087)).
 - **[Pyth Network #4090](https://github.com/pyth-network/pyth-crosschain/pull/4090)** — *Pyth Crosschain / Douro Labs (Solana Oracle Engine)*  
   `fix(price_pusher/solana): decouple VAA reclamation to prevent 143+ SOL account leak (#4049)`  
   Resolved an ongoing mainnet leak locking ~143.11 SOL across 18,734 orphan accounts by implementing an asynchronous batch reclamation queue respecting Solana 1232-byte MTU boundaries with zero hot-path latency impact.
