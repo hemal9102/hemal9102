@@ -19,6 +19,8 @@ Production-grade unilateral patches and performance fixes across Tier-1 distribu
   `fix(price_pusher/solana): decouple VAA reclamation to prevent 143+ SOL account leak (#4049)`  
   Resolved an ongoing mainnet leak locking ~143.11 SOL across 18,734 orphan accounts by implementing an asynchronous batch reclamation queue respecting Solana 1232-byte MTU boundaries with zero hot-path latency impact.
 
+- **[Nautilus Trader (Bybit Adapter)](https://github.com/hemal9102/nautilus_trader/commit/c3977281c98122b778474c21a333d6e6973c0156)** — *Bybit (Dubai HQ) / Nautech Systems (Algorithmic Trading Engine in Rust)*  
+  - Fixed silent dropping of Bybit spot/perp instruments when exchange lotSizeFilter.maxOrderQty overflows Quantity ([#5549](https://github.com/nautechsystems/nautilus_trader/issues/5549)).
 - **[Nautilus Trader #5585](https://github.com/nautechsystems/nautilus_trader/pull/5585)** — *Deribit / Nautech Systems (Algorithmic Trading Engine in Rust)*  
   - Fixed Deribit dated option expiry position stranding where venue omits expired contracts post-cash settlement ([#5332](https://github.com/nautechsystems/nautilus_trader/issues/5332)).
 - **[Nautilus Trader #5584](https://github.com/nautechsystems/nautilus_trader/pull/5584)** — *Nautech Systems (Algorithmic Trading & High-Frequency Engine in Rust/Cython)*  
