@@ -21,6 +21,8 @@ Production-grade unilateral patches and performance fixes across Tier-1 distribu
   `fix(price_pusher/solana): decouple VAA reclamation to prevent 143+ SOL account leak (#4049)`  
   Resolved an ongoing mainnet leak locking ~143.11 SOL across 18,734 orphan accounts by implementing an asynchronous batch reclamation queue respecting Solana 1232-byte MTU boundaries with zero hot-path latency impact.
 
+- **[Nautilus Trader (Parquet Catalog)](https://github.com/hemal9102/nautilus_trader/commit/54bd1994f146de40ebe1332f4b4e573b5884cb53)** — *Nautech Systems (Persistence & Parquet Catalog Engine in Rust)*  
+  - Fixed Windows catalog empty listing bug for colon-containing instrument IDs (Hyperliquid HIP-3) by resolving object store path normalization ([#5579](https://github.com/nautechsystems/nautilus_trader/issues/5579)).
 - **[Nautilus Trader #5586](https://github.com/nautechsystems/nautilus_trader/pull/5586)** — *Bybit (Dubai HQ) / Nautech Systems (Algorithmic Trading Engine in Rust)*  
   - Fixed silent dropping of Bybit spot/perp instruments when exchange lotSizeFilter.maxOrderQty overflows Quantity ([#5549](https://github.com/nautechsystems/nautilus_trader/issues/5549)).
 - **[Nautilus Trader #5585](https://github.com/nautechsystems/nautilus_trader/pull/5585)** — *Deribit / Nautech Systems (Algorithmic Trading Engine in Rust)*  
