@@ -6,6 +6,24 @@ Founder & Systems Architect at [TENSIX](https://tensix.in)
 
 ---
 
+
+### Open-Source Systems & Distributed Infrastructure Contributions
+
+Production-grade unilateral patches and performance fixes across Tier-1 distributed storage, L2 execution clients, and consensus networks:
+
+- **[LanceDB #4893](https://github.com/lancedb/lancedb/pull/4893)** — *LanceDB (Vector Database & Embedded Retrieval Engine)*  
+  `fix(python): prevent silent dropping of dictionary fields in subsequent rows (#4484)`  
+  Fixed data-loss mechanism in `to_arrow` table construction when ingesting lists of dictionaries where nullable attributes appear in subsequent rows. Verified and **approved by official LanceDB Gatekeeper**.
+
+- **[Pyth Network #4090](https://github.com/pyth-network/pyth-crosschain/pull/4090)** — *Pyth Crosschain / Douro Labs (Solana Oracle Engine)*  
+  `fix(price_pusher/solana): decouple VAA reclamation to prevent 143+ SOL account leak (#4049)`  
+  Resolved an ongoing mainnet leak locking ~143.11 SOL across 18,734 orphan accounts by implementing an asynchronous batch reclamation queue respecting Solana 1232-byte MTU boundaries with zero hot-path latency impact.
+
+- **[Mysten Labs / Walrus #3962](https://github.com/MystenLabs/walrus/pull/3962)** — *Mysten Labs / SuiHub Dubai (Decentralized Storage Network)*  
+  `fix(node): do not fail confirmation response on reassigned shard pending flush (#3742)`  
+  Resolved critical quorum loss during epoch-boundary transitions by treating unassigned shard cache flushes as benign rather than escalating into fatal internal errors.
+
+---
 ### Core Focus & Systems Architecture
 
 I build production runtime infrastructure, distributed protocol engines, and evaluation harnesses for autonomous agent systems and large-scale AI platforms.
